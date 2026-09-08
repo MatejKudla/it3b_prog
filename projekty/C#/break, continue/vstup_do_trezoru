@@ -1,0 +1,32 @@
+class Porgram
+{
+    const int CISELNYKOD = 1234;
+    int pocetpokusu = 0;
+
+    while(true)
+    {
+        if(pocetpokusu <= 5)
+        {
+            Console.WriteLine("Zadej ciselny kod ")
+            int vstup = int.Parse(Console.ReadLine());
+
+            if(CISELNYKOD = vstup)
+            {
+                Console.WriteLine("Zadal si spravny kod.")
+                return 0;
+            }
+            else
+            {
+                continue;
+            }
+
+        }
+            else
+            {
+                break;
+            }
+        
+    }
+       
+}
+
