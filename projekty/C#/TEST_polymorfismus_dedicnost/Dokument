@@ -21,7 +21,7 @@ public class Dokument
         Digitalizovan = true;
     }
 }
-
+//--------------------------------------------------------------------------------
 public class VazanaKniha : Dokument
 {
     public VazanaKniha(string nazev, int pocetStran) : base(nazev, pocetStran)
@@ -33,7 +33,7 @@ public class VazanaKniha : Dokument
         return PocetStran * 2.0;
     }
 }
-
+//--------------------------------------------------------------------------------
 public class VolneListy : Dokument
 {
     public VolneListy(string nazev, int pocetStran) : base(nazev, pocetStran)
@@ -45,7 +45,7 @@ public class VolneListy : Dokument
         return (PocetStran * 1.0) + 5.0;
     }
 }
-
+//--------------------------------------------------------------------------------
 public class DigitalizacniLinka
 {
     public double ZbyvajiciCas { get; set; }
